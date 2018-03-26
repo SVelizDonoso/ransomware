@@ -2,7 +2,7 @@
 $server = "localhost";
 $username = "newuser";
 $password = "password";
-$dbname = "cripto";
+$dbname = "ransomware_db";
 $conn = new mysqli($server, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
