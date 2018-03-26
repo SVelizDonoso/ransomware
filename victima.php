@@ -2,7 +2,7 @@
 $server = "localhost";
 $username = "newuser";
 $password = "password";
-$dbname = "cripto";
+$dbname = "ransomware_db";
 $pass = (string)$_POST['pass'];
 $id = (string)$_POST['id'];
 $conn = new mysqli($server, $username, $password, $dbname);
